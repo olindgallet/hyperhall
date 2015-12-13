@@ -1,0 +1,23 @@
+{
+  "main": "index.html",
+  "name": "HyperHall",
+  "homepage": "http://www.olingallet.com",
+  "description": "A twitch racer for Ludum Dare 34",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.1.0",
+    "grunt-contrib-uglify": "^0.6.0"
+  },
+  "window": {
+    "height": 480,
+    "width": 640,
+    "title": "Hyper Hall",
+    "toolbar": false,
+	"frame": true
+  },
+  "webkit": {
+	"plugin": true
+	}
+}
